@@ -1,0 +1,48 @@
+.services-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, #ffffff, #add8e6);
+  min-height: 230vh;
+  box-sizing: border-box;
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.overlay {
+  width: 100%;
+}
+.service-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+.service-list li {
+  margin-bottom: 7px;
+}
+.intro h1 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  color: #00509e;
+}
+
+.intro h2 {
+  font-size: 1.8em;
+  margin-top: 10px;
+  color: #00509e;
+}
+
+.intro h3 {
+  font-size: 1.5em;
+  margin-top: 15px;
+  color: #00509e;
+}

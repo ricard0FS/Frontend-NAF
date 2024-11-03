@@ -1,0 +1,70 @@
+footer {
+  background-color: rgba(74, 85, 104, 0.7);
+  padding: 15px 0;
+  color: #fff;
+}
+
+footer img {
+  width: 100px;
+}
+
+footer h2 {
+  font-weight: 500;
+}
+
+footer p {
+  color: rgb(0, 0, 0);
+  margin: 20px 0;
+  font-size: 1.2em;
+}
+
+footer h3 {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+footer ul {
+  display: block;
+}
+
+footer ul li {
+  display: block;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.legal {
+  text-align: center;
+  padding: 20px;
+  background: #1d2636;
+  color: rgb(255, 255, 255);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (max-width: 800px) {
+  footer .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.icons {
+  display: flex;
+  flex-direction: row; /* Coloca os ícones em uma linha */
+}
+
+.icon-item {
+  display: flex;
+  align-items: center;
+  margin: 5px 10px; /* Espaço entre os itens */
+}
+
+.icon-item p {
+  margin-left: 5px; /* Espaço entre o ícone e o texto */
+  font-size: 15px; /* Tamanho da fonte do texto */
+  color: #060606; /* Cor do texto, ajuste conforme necessário */
+}
+
+.icons > * {
+  font-size: 24px; /* Aumenta o tamanho dos ícones */
+  color: #fff; /* Altera a cor dos ícones para branco */
+}

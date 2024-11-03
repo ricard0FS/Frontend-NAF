@@ -1,0 +1,48 @@
+.container-Support {
+  position: relative;
+  padding-top: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, #ffffff, #add8e6);
+  min-height: 200vh;
+  box-sizing: border-box;
+}
+overlay {
+  width: 100%;
+}
+.support-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  line-height: 1.6;
+  font-size: 1.2em;
+}
+
+.support-list li {
+  margin-bottom: 7px;
+}
+.intro h1 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #00509e;
+}
+
+.intro h2 {
+  font-size: 1.8em;
+  margin-top: 20px;
+  color: #00509e;
+}
+
+.support-list h3 {
+  font-size: 1.7em;
+  margin-top: 15px;
+  color: #00509e;
+}
+.atendimento-image {
+  width: 100%; /* Ocupa toda a largura */
+  height: 100%; /* Preenche a altura do contêiner */
+  max-height: 400px; /* Limita a altura máxima */
+  object-fit: cover; /* Corta a imagem, mantendo o centro visível */
+  object-position: top; /* Mostra mais da parte superior da imagem */
+  margin-bottom: 20px; /* Espaçamento entre a imagem e o conteúdo */
+}

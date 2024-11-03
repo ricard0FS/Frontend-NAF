@@ -1,0 +1,32 @@
+.card-container-Policies {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card-Policies img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+.card-Policies {
+  width: 80%;
+  padding: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+.card-Policies:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card-Policies p {
+  font-size: 0.9em;
+  line-height: 1.4;
+  color: #333;
+  margin: 0;
+}
