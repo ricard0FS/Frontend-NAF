@@ -20,7 +20,6 @@ const About = () => {
           </p>
         </section>
 
-        {/* Seção Cards */}
         <section className="card-container">
           <div className="card">
             <img src={missionAbt} alt="Nossa Missão" />

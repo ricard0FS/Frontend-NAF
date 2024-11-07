@@ -1,6 +1,6 @@
 import React from "react";
 import "./Partners.css";
-import { parceria, unipac, srcNaf, receitaF } from "../images/index";
+import { parceria, unipac, srcNaf, receitaF, logoNaf } from "../images/index";
 
 const Partners = () => {
   return (
@@ -58,6 +58,27 @@ const Partners = () => {
                 se tornem profissionais éticos e capacitados." O CRC ajuda o NAF
                 com recursos educacionais e eventos, fomentando a ética
                 profissional e a formação contínua dos alunos.
+              </p>
+            </a>
+            <a
+              href="https://crcmg.org.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card"
+            >
+              <img src={logoNaf} alt="Parcerias" />
+              <p>
+                O Núcleo de Apoio Contábil e Fiscal (NAF) e a UNIPAC se
+                relacionam por meio de uma parceria que envolve educação e
+                responsabilidade social. A UNIPAC, ao abrigar o NAF, proporciona
+                aos estudantes de Ciências Contábeis a oportunidade de vivenciar
+                a prática contábil e fiscal em um ambiente real, atendendo a
+                comunidade local com serviços gratuitos, como orientação fiscal,
+                auxílio no preenchimento de declarações de imposto de renda e
+                formalização de microempreendedores. Essa parceria fortalece a
+                formação prática dos alunos e contribui com a inclusão social e
+                cidadania, oferecendo suporte essencial para aqueles que não
+                devem ter acesso
               </p>
             </a>
           </section>

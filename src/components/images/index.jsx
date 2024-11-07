@@ -18,6 +18,10 @@ import policies from "./policies.png";
 import coletaDados from "./coletaDados.png";
 import location from "./location.png";
 import contato from "./contato.png";
+import noticia from "./noticias.png";
+import writing from "./write.png";
+import blog from "./blog.png";
+import interview from "./interview.png";
 
 export {
   missionNaf,
@@ -40,4 +44,8 @@ export {
   coletaDados,
   location,
   contato,
+  noticia,
+  writing,
+  blog,
+  interview,
 };

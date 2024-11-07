@@ -1,7 +1,7 @@
 .naf-container {
   position: relative;
-  padding-top: 550px; /* Espaço para o header */
-  padding-bottom: 550px; /* Espaço para o footer */
+  padding-top: 600px;
+  padding-bottom: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,20 +14,20 @@
   flex: 1;
   text-align: left;
   color: #333;
-  font-size: 1.4em; /* tamanho da fonte */
+  font-size: 1.4em;
   line-height: 1.4;
   padding-right: 15px;
 }
 
 .intro h1 {
-  font-size: 2em; /*  tamanho do título */
+  font-size: 2em;
   font-weight: 700;
   color: #003366;
   margin-bottom: 8px;
 }
 
 .intro h2 {
-  font-size: 1.3em; /* Reduz o tamanho do subtítulo */
+  font-size: 1.3em;
   font-weight: 500;
   color: #00509e;
   margin-bottom: 15px;
@@ -37,12 +37,12 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 15px; /* Reduz o espaço entre os cards */
+  gap: 15px;
 }
 
 .card {
   background-color: rgba(255, 255, 255, 0.9);
-  padding: 15px; /* Reduz padding dos cards */
+  padding: 15px;
   border-radius: 8px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
   font-size: 1.2em;
@@ -51,7 +51,7 @@
 }
 
 .card img {
-  width: 31%; /* Reduz tamanho da imagem */
+  width: 31%;
   height: auto;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -63,9 +63,14 @@
 }
 
 @media screen and (max-width: 768px) {
+  .naf-container {
+    padding-top: 120vh; /* Espaço para o header */
+    padding-bottom: 120vh; /* Espaço para o footer */
+  }
+
   .overlay {
     flex-direction: column;
-    padding: 15px; /* Reduz o padding para telas menores */
+    padding: 15px;
   }
 
   .intro {
@@ -78,10 +83,10 @@
   }
 
   .intro h1 {
-    font-size: 1.8em; /* Ajuste do título para telas menores */
+    font-size: 1.8em;
   }
 
   .intro h2 {
-    font-size: 1.2em; /* Ajuste do subtítulo */
+    font-size: 1.2em;
   }
 }

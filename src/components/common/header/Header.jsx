@@ -8,12 +8,16 @@ const Header = () => {
   const [navList, setNavList] = useState(false);
   const [hovered, setHovered] = useState(null);
 
+  const toggleMenu = () => {
+    setNavList(!navList);
+  };
+
   return (
     <>
       <header>
         <div className="container flex">
           <div className="logo">
-            <img src={logoNaf} alt="" />
+            <img src={logoNaf} alt="Logo" />
           </div>
           <div className="nav">
             <ul className={navList ? "small" : "flex"}>
@@ -47,6 +51,10 @@ const Header = () => {
             </ul>
           </div>
           <div className="button flex"></div>
+
+          <div className="toggle" onClick={toggleMenu}>
+            <i className="fa fa-bars"></i>
+          </div>
         </div>
       </header>
     </>

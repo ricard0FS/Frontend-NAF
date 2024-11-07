@@ -16,6 +16,7 @@ import Support from "../support/Support";
 import Partners from "../partners/Partners";
 import Policies from "../policies/policies";
 import Contact from "../contact/Contact";
+import Events from "../Events/events";
 
 const Pages = () => {
   const location = useLocation();
@@ -33,6 +34,7 @@ const Pages = () => {
         <Route exact path="/parceiros" element={<Partners />} />
         <Route exact path="/policies" element={<Policies />} />
         <Route exact path="/contato" element={<Contact />} />
+        <Route exact path="/eventos" element={<Events />} />
       </Routes>
       <Footer />
     </>

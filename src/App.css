@@ -61,9 +61,7 @@ label {
   color: #2d3954;
   font-size: 14px;
 }
-.mtop {
-  margin-top: 50px;
-}
+
 h4 {
   font-weight: 500;
   margin-top: 10px;
@@ -72,15 +70,6 @@ h4 {
   box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
 }
 
-.grid3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
-}
-
-.mb {
-  margin-bottom: 80px;
-}
 @media screen and (max-width: 800px) {
   .grid4,
   .grid3,

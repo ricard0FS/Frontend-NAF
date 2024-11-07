@@ -11,6 +11,7 @@ header {
 
 header img {
   width: 95px;
+  width: 30%;
 }
 
 header a {
@@ -18,13 +19,13 @@ header a {
   transition: 0.5s;
   font-weight: 500;
   color: #fff;
-  font-size: 1rem; /* Tamanho inicial da fonte */
+  font-size: 1rem;
   text-decoration: none;
 }
 
 header a:hover {
-  color: #add8e6; /* Azul claro ao passar o mouse */
-  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+  color: #add8e6;
+  text-decoration: underline;
 }
 
 header h4 {
@@ -34,6 +35,9 @@ header h4 {
 
 header .toggle {
   display: none;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
@@ -48,6 +52,24 @@ header .toggle {
   }
   header .nav .flex {
     display: none;
+  }
+
+  header .toggle {
+    display: block;
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+
+  .nav .small {
+    display: block;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    z-index: 1000;
   }
 
   header li a {

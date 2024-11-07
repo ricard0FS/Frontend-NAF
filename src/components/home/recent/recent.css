@@ -1,12 +1,3 @@
-.naf-container {
-  position: relative;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(to right, #ffffff, #add8e6);
-}
-
 .overlay {
   display: flex;
   gap: 50px;
@@ -76,6 +67,16 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
+  .naf-container {
+    height: 200vh !important;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #ffffff, #add8e6);
+  }
+
   .overlay {
     flex-direction: column;
     padding: 20px;
