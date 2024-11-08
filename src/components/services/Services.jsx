@@ -43,8 +43,6 @@ const Services = () => {
             </li>
           </ul>
 
-          {/* Conteúdo Sugerido */}
-
           <h3>Serviços para Pessoas Físicas:</h3>
           <ul className="service-list">
             <li>Cadastro CPF;</li>

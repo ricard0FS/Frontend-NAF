@@ -1,11 +1,7 @@
 import React from "react";
-import { footer } from "../../data/Data";
 import "./footer.css";
 import { logoNaf } from "../../images";
 import { FaFacebook } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import { BsFillTelephoneFill } from "react-icons/bs";
-import { FaLocationDot } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
@@ -37,22 +33,6 @@ const Footer = () => {
                   <FaFacebook />
                 </a>
               </div>
-              {/* 
-              <div className="icon-item">
-                <FaLocationDot />
-                <p>
-                  Endereço: Av. Cipriano Del Fávero, 1015 - Centro, Uberlândia - MG, 38400-106
-                </p>
-              </div>
-              <div className="icon-item">
-                <BsFillTelephoneFill />
-                <p>Telefone: (34) 3291-2100</p>
-              </div>
-              <div className="icon-item">
-                <MdEmail />
-                <p>E-mail: wesley@unipac.com.br</p>
-              </div>
-              */}
             </div>
           </div>
         </div>

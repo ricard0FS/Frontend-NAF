@@ -61,7 +61,7 @@ const Partners = () => {
               </p>
             </a>
             <a
-              href="https://crcmg.org.br/"
+              href="https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/cidadania-fiscal/naf"
               target="_blank"
               rel="noopener noreferrer"
               className="card"

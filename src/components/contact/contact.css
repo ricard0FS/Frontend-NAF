@@ -85,7 +85,7 @@ h3 {
 .form-group {
   display: flex;
   flex-direction: column;
-  margin-bottom: 200px; /* Aumentei o espaçamento entre os inputs */
+  margin-bottom: 200px;
 }
 
 .form-group label {
@@ -95,13 +95,13 @@ h3 {
 }
 
 .contact-form button {
-  background-color: #04417d; /* Azul escuro */
-  color: white; /* Cor do texto */
-  border: none; /* Remove bordas */
-  padding: 10px 20px; /* Espaçamento interno */
-  font-size: 20px; /* Tamanho da fonte */
+  background-color: #04417d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
   cursor: pointer;
-  transition: background-color 0.3s; /* Transição suave */
+  transition: background-color 0.3s;
   border-radius: 5px;
 }
 

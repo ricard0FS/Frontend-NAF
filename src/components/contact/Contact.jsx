@@ -1,12 +1,9 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import "./contact.css";
 import { contato, location } from "../images/index";
 import Input from "../Utils/Input/input";
 
 const Contact = () => {
-  const navigate = useNavigate();
-
   const handleLocationClick = () => {
     window.open(
       "https://www.google.com.br/maps/place/Unipac/@-18.9132904,-48.2798595,17z/data=!4m14!1m7!3m6!1s0x94a44522278ea67d:0xb579cb4f96c7eb02!2sUnipac!8m2!3d-18.9132904!4d-48.2772846!16s%2Fg%2F11gphrpl24!3m5!1s0x94a44522278ea67d:0xb579cb4f96c7eb02!8m2!3d-18.9132904!4d-48.2772846!16s%2Fg%2F11gphrpl24?hl=pt-BR&entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D",

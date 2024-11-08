@@ -1,15 +1,6 @@
 import React from "react";
 import "./events.css";
-import {
-  parceria,
-  unipac,
-  srcNaf,
-  receitaF,
-  noticia,
-  blog,
-  writing,
-  interview,
-} from "../images/index";
+import { noticia, blog, writing, interview } from "../images/index";
 
 const Events = () => {
   return (
