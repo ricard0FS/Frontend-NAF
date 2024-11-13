@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Frontend-NAF/static/css/main.9b282ce0.css",
+    "main.js": "/Frontend-NAF/static/js/main.a5e31c80.js",
+    "static/media/partners.png": "/Frontend-NAF/static/media/partners.35805453b75220cd0c84.png",
+    "static/media/main-naf.webp": "/Frontend-NAF/static/media/main-naf.30f71a19290153ad1f5a.webp",
+    "static/media/policies.png": "/Frontend-NAF/static/media/policies.afe29ac1800ee6e43ecb.png",
+    "static/media/noticias.png": "/Frontend-NAF/static/media/noticias.04bf473aae50cdd69aec.png",
+    "static/media/values-naf.png": "/Frontend-NAF/static/media/values-naf.5470de59d1b5f4d4e7f7.png",
+    "static/media/vision-naf.png": "/Frontend-NAF/static/media/vision-naf.7b90f89b4c44f70423d3.png",
+    "static/media/mission-abt.png": "/Frontend-NAF/static/media/mission-abt.048f1172ef19ed49ebde.png",
+    "static/media/obj-naf.png": "/Frontend-NAF/static/media/obj-naf.4f3e6fc66b4b1a017fa0.png",
+    "static/media/atendimento.png": "/Frontend-NAF/static/media/atendimento.5a2fb80a1c675cb09d63.png",
+    "static/media/explicacao.png": "/Frontend-NAF/static/media/explicacao.e7e850847616bfe02da1.png",
+    "static/media/mission-naf.png": "/Frontend-NAF/static/media/mission-naf.99fcd614a23161a762eb.png",
+    "static/media/money.png": "/Frontend-NAF/static/media/money.07178465584f3aa3a470.png",
+    "static/media/location.png": "/Frontend-NAF/static/media/location.8527065b0c8cb6291f62.png",
+    "static/media/contato.png": "/Frontend-NAF/static/media/contato.eec879e9e74302e3fc57.png",
+    "static/media/write.png": "/Frontend-NAF/static/media/write.39bd05bc2f838408375c.png",
+    "static/media/logo-naf.png": "/Frontend-NAF/static/media/logo-naf.50294bfd2ba0805e5eb8.png",
+    "static/media/unipac.png": "/Frontend-NAF/static/media/unipac.7edaf6bbff42cfcef973.png",
+    "static/media/pjNaf.png": "/Frontend-NAF/static/media/pjNaf.b179ed607db5a91e9c40.png",
+    "static/media/srcNaf.png": "/Frontend-NAF/static/media/srcNaf.f1f983c28f100401dafb.png",
+    "index.html": "/Frontend-NAF/index.html",
+    "main.9b282ce0.css.map": "/Frontend-NAF/static/css/main.9b282ce0.css.map",
+    "main.a5e31c80.js.map": "/Frontend-NAF/static/js/main.a5e31c80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b282ce0.css",
+    "static/js/main.a5e31c80.js"
+  ]
+}
